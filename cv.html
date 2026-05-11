@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CV and skills for Gehad Hamada." />
+    <title>CV | Gehad Hamada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="cv">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><span class="brand__logo">GH</span><span class="brand__name">Gehad Hamada</span></a>
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home"><span class="icon" data-icon="home"></span><span data-i18n="navHome">Home</span></a>
+          <a class="nav-link" href="about.html" data-nav="about"><span class="icon" data-icon="user"></span><span data-i18n="navAbout">About</span></a>
+          <a class="nav-link" href="projects.html" data-nav="projects"><span class="icon" data-icon="code"></span><span data-i18n="navProjects">Projects</span></a>
+          <a class="nav-link" href="achievements.html" data-nav="achievements"><span class="icon" data-icon="trophy"></span><span data-i18n="navAchievements">Achievements</span></a>
+          <a class="nav-link" href="research.html" data-nav="research"><span class="icon" data-icon="book"></span><span data-i18n="navResearch">Research</span></a>
+          <a class="nav-link" href="cv.html" data-nav="cv"><span class="icon" data-icon="file"></span><span data-i18n="navCv">CV</span></a>
+          <a class="nav-link" href="contact.html" data-nav="contact"><span class="icon" data-icon="mail"></span><span data-i18n="navContact">Contact</span></a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" data-icon="moon"></span>
+            </button>
+            <div class="language-switcher">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero reveal-on-load">
+        <div class="container narrow">
+          <p class="eyebrow"><span class="icon" data-icon="file"></span><span data-i18n="cvEyebrow">CV</span></p>
+          <h1 data-i18n="cvTitleReal">Computer Science student focused on software engineering, AI, and data-driven projects.</h1>
+          <p data-i18n="cvLeadReal">
+            Download my CV in English or German and review my real skills, education, experience, projects, and achievements.
+          </p>
+
+          <div class="card-actions">
+            <a class="btn btn-primary pressable" href="assets/cv/cv-EN.pdf" download>
+              <span class="icon" data-icon="download"></span>
+              <span data-i18n="downloadEnglishCv">Download English CV</span>
+            </a>
+
+            <a class="btn btn-primary pressable" href="assets/cv/GEHAD_HAMADA_FlowCV_Resume_2026-05-06-2.pdf" download>
+              <span class="icon" data-icon="download"></span>
+              <span data-i18n="downloadGermanCv">Download German CV</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container cv-layout">
+          <article class="glass-card">
+            <span class="icon card-icon" data-icon="graduation"></span>
+            <h2 data-i18n="education">Education</h2>
+            <p data-i18n="educationValueReal">
+              B.Sc. Computer Science, Hof University of Applied Sciences<br />
+              B.Sc. Computer Systems and Software Engineering, IITU
+            </p>
+          </article>
+
+          <article class="glass-card">
+            <span class="icon card-icon" data-icon="languages"></span>
+            <h2 data-i18n="languages">Languages</h2>
+            <p data-i18n="languagesValueReal">English — C1, Russian — B1, German — B1.1, Arabic — C2</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="icon" data-icon="layers"></span><span data-i18n="skillsEyebrow">Skills</span></p>
+            <h2 data-i18n="skillsTitleReal">Technical skills from my CV</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="icon" data-icon="code"></span>
+              <h3 data-i18n="skillProgrammingLanguages">Programming Languages</h3>
+              <p data-i18n="skillProgrammingLanguagesText">Python, C++, SQL</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="icon" data-icon="globe"></span>
+              <h3 data-i18n="skillWebBackend">Web & Backend</h3>
+              <p data-i18n="skillWebBackendText">FastAPI, Django, HTML, CSS, JavaScript</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="icon" data-icon="database"></span>
+              <h3 data-i18n="skillDataAi">Data & AI</h3>
+              <p data-i18n="skillDataAiText">Machine Learning Workflows, Data Analysis, FinBERT, Jupyter</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="icon" data-icon="layers"></span>
+              <h3 data-i18n="skillToolsPlatforms">Tools & Platforms</h3>
+              <p data-i18n="skillToolsPlatformsText">Git, GitHub, Docker, Linux, Hugging Face</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="icon" data-icon="book"></span>
+              <h3 data-i18n="skillSoftwareEngineeringReal">Software Engineering</h3>
+              <p data-i18n="skillSoftwareEngineeringText">Data Structures, Algorithms, Backend Development, Software Development</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="icon" data-icon="briefcase"></span><span data-i18n="experienceEyebrow">Experience</span></p>
+            <h2 data-i18n="experienceTitle">Work experience</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="icon" data-icon="sparkles"></span>
+              <h3 data-i18n="headstarterTitle">Headstarter AI Fellowship</h3>
+              <p data-i18n="headstarterMeta">Fellow, Remote · July 2023 – October 2023</p>
+              <p data-i18n="headstarterText">Participated in building and planning AI-driven projects and gained hands-on experience with machine learning workflows.</p>
+            </article>
+
+            <article class="skill-card">
+              <span class="icon" data-icon="code"></span>
+              <h3 data-i18n="ituTitle">ITU Innovation Center</h3>
+              <p data-i18n="ituMeta">Intern · May 2024 – July 2024</p>
+              <p data-i18n="ituText">Assisted in software development and IT-related tasks, including backend development and data handling.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

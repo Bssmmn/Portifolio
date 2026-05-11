@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "profile",
+    "text": "Gehad Hamada is a Computer Science student focused on software engineering, artificial intelligence, data-driven projects, and research-based solutions. She is looking for internships, working student roles, and junior software engineering opportunities in Germany and Europe."
+  },
+  {
+    "topic": "contact",
+    "text": "Gehad Hamada's email is ghamada@hof-university.de. Her GitHub profile is https://github.com/Bssmmn. Her LinkedIn profile is https://www.linkedin.com/in/gehad-hamada-cs/. Her phone number is +49 157 58339541."
+  },
+  {
+    "topic": "education",
+    "text": "Gehad studies B.Sc. Computer Science as a dual degree at Hof University of Applied Sciences in Hof, Bavaria, Germany, starting from October 2025. She also studies B.Sc. Computer Systems and Software Engineering at International Information Technologies University, IITU, in Almaty, Kazakhstan, from September 2023 to present. Her current average grade is 3.58 out of 4.0."
+  },
+  {
+    "topic": "experience",
+    "text": "Gehad was a Fellow at Headstarter AI Fellowship from July 2023 to October 2023, where she participated in building and planning AI-driven projects and gained hands-on experience with machine learning workflows. She was also an Intern at ITU Innovation Center from May 2024 to July 2024, where she assisted in software development, IT-related tasks, backend development, and data handling."
+  },
+  {
+    "topic": "projects",
+    "text": "Gehad's projects include Sign Language Recognition System, Drone-Based Vegetation Health Mapping System, and Financial News Analyzer. The Sign Language Recognition System processes hand landmarks using MediaPipe for gesture recognition and uses feature mapping for a Random Forest machine learning model. The Drone-Based Vegetation Health Mapping System visualizes drone flight data and vegetation health layers using interactive maps, geospatial heatmaps, flight trajectory exploration, and GPS metadata. The Financial News Analyzer uses FastAPI and FinBERT for financial sentiment analysis, model comparison, latency tracking, Docker, and Hugging Face Spaces deployment."
+  },
+  {
+    "topic": "skills",
+    "text": "Gehad's technical skills include Python, C++, SQL, FastAPI, Django, HTML, CSS, JavaScript, Git, GitHub, Docker, Linux, Jupyter, Hugging Face, data structures, algorithms, machine learning workflows, data analysis, backend development, and software development."
+  },
+  {
+    "topic": "research",
+    "text": "Gehad's research work includes machine learning in logistics and supply chain management at the DTESI Conference in 2024, research using Geographic Information Systems and Remote Sensing for enhanced water resource management in Kazakhstan, artificial intelligence applications as a driving force behind digital transformation at the YDF Conference, big data analytics in reinforcing business sustainability of enterprises, holistic analysis of critical success factors in agile project management, and machine learning models for unstructured decisions and unstructured data in digital business firms at the DTESI Conference in 2025. Her Scopus ID is 59563623800."
+  },
+  {
+    "topic": "achievements",
+    "text": "Gehad's achievements include winning 2nd place at the Alrathon Hackathon in Almaty with an AI/ML solution supporting people with disabilities. She is also an ICPC Programming Competition Quarterfinalist and participated in the 9th International Conference DTESI."
+  },
+  {
+    "topic": "languages",
+    "text": "Gehad's languages are Arabic at C2 level, English at C1 level, Russian at B1 level, and German at B1.1 level."
+  },
+  {
+    "topic": "cv",
+    "text": "Gehad has two CV files in the portfolio: an English CV at assets/cv/cv-EN.pdf and a German CV at assets/cv/GEHAD_HAMADA_FlowCV_Resume_2026-05-06-2.pdf. The CV includes her education, work experience, technical skills, languages, projects, research, and achievements."
+  }
+]

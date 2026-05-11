@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Achievements and milestones by Gehad Hamada." />
+    <title>Achievements | Gehad Hamada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="achievements">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html">
+          <span class="brand__logo">GH</span>
+          <span class="brand__name">Gehad Hamada</span>
+        </a>
+
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home"><span class="icon" data-icon="home"></span><span data-i18n="navHome">Home</span></a>
+          <a class="nav-link" href="about.html" data-nav="about"><span class="icon" data-icon="user"></span><span data-i18n="navAbout">About</span></a>
+          <a class="nav-link" href="projects.html" data-nav="projects"><span class="icon" data-icon="code"></span><span data-i18n="navProjects">Projects</span></a>
+          <a class="nav-link" href="achievements.html" data-nav="achievements"><span class="icon" data-icon="trophy"></span><span data-i18n="navAchievements">Achievements</span></a>
+          <a class="nav-link" href="research.html" data-nav="research"><span class="icon" data-icon="book"></span><span data-i18n="navResearch">Research</span></a>
+          <a class="nav-link" href="cv.html" data-nav="cv"><span class="icon" data-icon="file"></span><span data-i18n="navCv">CV</span></a>
+          <a class="nav-link" href="contact.html" data-nav="contact"><span class="icon" data-icon="mail"></span><span data-i18n="navContact">Contact</span></a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" data-icon="moon"></span>
+            </button>
+
+            <div class="language-switcher">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero reveal-on-load">
+        <div class="container narrow">
+          <p class="eyebrow">
+            <span class="icon" data-icon="trophy"></span>
+            <span data-i18n="achievementsEyebrow">Achievements</span>
+          </p>
+
+          <h1 data-i18n="achievementsTitleReal">Milestones from competitions, teamwork, and academic events.</h1>
+
+          <p data-i18n="achievementsLeadReal">
+            A timeline of my hackathon experience, ICPC participation, and academic conference involvement.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container timeline">
+          <article class="timeline-item">
+            <div class="timeline-icon">
+              <span class="icon" data-icon="trophy"></span>
+            </div>
+
+            <div class="timeline-card">
+              <span class="badge" data-i18n="achievementHackathonBadgeReal">Hackathon</span>
+              <h2 data-i18n="achievementHackathonTitleReal">Alrathon Hackathon — 2nd Place</h2>
+
+              <p data-i18n="achievementHackathonTextReal">
+                Won 2nd place in Alrathon in Almaty with a team project focused on an AI/ML solution
+                to support people with disabilities. The project combined teamwork, idea development,
+                implementation, and presentation under time pressure.
+              </p>
+
+              <div class="achievement-photo-grid">
+                <img src="assets/images/hackathon.jpg" alt="Alrathon hackathon certificate photo" />
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-icon">
+              <span class="icon" data-icon="code"></span>
+            </div>
+
+            <div class="timeline-card">
+              <span class="badge" data-i18n="achievementIcpcBadge">Programming Contest</span>
+              <h2 data-i18n="achievementIcpcTitle">ICPC Programming Contest Participation</h2>
+
+              <p data-i18n="achievementIcpcText">
+                Participated in the ICPC preparation and 1/4 finals round hosted at the university.
+                This experience strengthened my problem-solving, algorithmic thinking, teamwork,
+                and ability to work under competition pressure.
+              </p>
+
+              <div class="achievement-photo-grid">
+                <img src="assets/images/icpc.jpg" alt="ICPC programming contest photo" />
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-icon">
+              <span class="icon" data-icon="book"></span>
+            </div>
+
+            <div class="timeline-card">
+              <span class="badge" data-i18n="achievementDtesiBadge">Conference</span>
+              <h2 data-i18n="achievementDtesiTitle">DTESI International Conference Participation</h2>
+
+              <p data-i18n="achievementDtesiText">
+                Participated in the 9th International Conference DTESI, connected to digital technologies,
+                education, science, and industry. This gave me more exposure to academic environments,
+                research topics, and professional presentation settings.
+              </p>
+
+              <div class="achievement-photo-grid">
+                <img src="assets/images/dtesi.jpg" alt="DTESI international conference photo" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

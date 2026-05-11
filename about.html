@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Gehad Hamada, Software Engineering student." />
+    <title>About | Gehad Hamada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="about">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html">
+          <span class="brand__logo">GH</span>
+          <span class="brand__name">Gehad Hamada</span>
+        </a>
+
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home">
+            <span class="icon" data-icon="home"></span><span data-i18n="navHome">Home</span>
+          </a>
+          <a class="nav-link" href="about.html" data-nav="about">
+            <span class="icon" data-icon="user"></span><span data-i18n="navAbout">About</span>
+          </a>
+          <a class="nav-link" href="projects.html" data-nav="projects">
+            <span class="icon" data-icon="code"></span><span data-i18n="navProjects">Projects</span>
+          </a>
+          <a class="nav-link" href="achievements.html" data-nav="achievements">
+            <span class="icon" data-icon="trophy"></span><span data-i18n="navAchievements">Achievements</span>
+          </a>
+          <a class="nav-link" href="research.html" data-nav="research">
+            <span class="icon" data-icon="book"></span><span data-i18n="navResearch">Research</span>
+          </a>
+          <a class="nav-link" href="cv.html" data-nav="cv">
+            <span class="icon" data-icon="file"></span><span data-i18n="navCv">CV</span>
+          </a>
+          <a class="nav-link" href="contact.html" data-nav="contact">
+            <span class="icon" data-icon="mail"></span><span data-i18n="navContact">Contact</span>
+          </a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" data-icon="moon"></span>
+            </button>
+
+            <div class="language-switcher">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact reveal-on-load">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow">
+              <span class="icon" data-icon="user"></span>
+              <span data-i18n="aboutEyebrow">About</span>
+            </p>
+
+            <h1 data-i18n="aboutTitleReal">A software engineering student who likes turning ideas into useful interfaces.</h1>
+
+            <p data-i18n="aboutLeadReal">
+              Gehad is interested in machine learning, data science, databases, software modeling,
+              educational tools, and research-based systems.
+            </p>
+          </div>
+
+          <div class="page-photo-card">
+            <img src="assets/images/gehad-profile.jpg" alt="Gehad Hamada" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container story-grid">
+          <article class="glass-card large-card">
+            <span class="icon card-icon" data-icon="sparkles"></span>
+
+            <h2 data-i18n="aboutStoryTitle">Professional Summary</h2>
+
+            <p data-i18n="aboutStoryTextReal">
+              I am a 6th-semester Computer Science student in Germany, interested in software engineering,
+              machine learning, data science, databases, and research-based projects. I enjoy working on
+              practical solutions, analyzing data, building clean systems, and improving my technical skills
+              through real projects. I am looking for an internship where I can learn fast, contribute seriously,
+              and grow as a developer.
+            </p>
+          </article>
+
+          <aside class="focus-list">
+            <article><span class="icon" data-icon="globe"></span><strong data-i18n="focusWeb">Web interfaces</strong></article>
+            <article><span class="icon" data-icon="chart"></span><strong data-i18n="focusMl">Machine Learning</strong></article>
+            <article><span class="icon" data-icon="database"></span><strong data-i18n="focusDataScience">Data Science</strong></article>
+            <article><span class="icon" data-icon="layers"></span><strong data-i18n="focusModeling">Software Modeling</strong></article>
+            <article><span class="icon" data-icon="book"></span><strong data-i18n="focusResearchWork">Research Work</strong></article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">
+              <span class="icon" data-icon="target"></span>
+              <span data-i18n="processEyebrow">How I Work</span>
+            </p>
+            <h2 data-i18n="processTitleReal">A simple process for building better software</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-card">
+              <span>01</span>
+              <h3 data-i18n="processOneTitle">Understand</h3>
+              <p data-i18n="processOneTextReal">Clarify the goal, users, constraints, and expected result.</p>
+            </article>
+
+            <article class="process-card">
+              <span>02</span>
+              <h3 data-i18n="processTwoTitle">Design</h3>
+              <p data-i18n="processTwoTextReal">Plan the structure, data flow, interface, and possible edge cases.</p>
+            </article>
+
+            <article class="process-card">
+              <span>03</span>
+              <h3 data-i18n="processThreeTitle">Build</h3>
+              <p data-i18n="processThreeTextReal">Implement the solution step by step with clean and readable code.</p>
+            </article>
+
+            <article class="process-card">
+              <span>04</span>
+              <h3 data-i18n="processFourTitle">Improve</h3>
+              <p data-i18n="processFourTextReal">Test, fix problems, and make the final result clearer and smoother.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

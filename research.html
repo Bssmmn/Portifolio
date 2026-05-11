@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Research and publications by Gehad Hamada." />
+    <title>Research | Gehad Hamada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="research">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><span class="brand__logo">GH</span><span class="brand__name">Gehad Hamada</span></a>
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home"><span class="icon" data-icon="home"></span><span data-i18n="navHome">Home</span></a>
+          <a class="nav-link" href="about.html" data-nav="about"><span class="icon" data-icon="user"></span><span data-i18n="navAbout">About</span></a>
+          <a class="nav-link" href="projects.html" data-nav="projects"><span class="icon" data-icon="code"></span><span data-i18n="navProjects">Projects</span></a>
+          <a class="nav-link" href="achievements.html" data-nav="achievements"><span class="icon" data-icon="trophy"></span><span data-i18n="navAchievements">Achievements</span></a>
+          <a class="nav-link" href="research.html" data-nav="research"><span class="icon" data-icon="book"></span><span data-i18n="navResearch">Research</span></a>
+          <a class="nav-link" href="cv.html" data-nav="cv"><span class="icon" data-icon="file"></span><span data-i18n="navCv">CV</span></a>
+          <a class="nav-link" href="contact.html" data-nav="contact"><span class="icon" data-icon="mail"></span><span data-i18n="navContact">Contact</span></a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme"><span class="icon" data-icon="moon"></span></button>
+            <div class="language-switcher">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero reveal-on-load">
+        <div class="container narrow">
+          <p class="eyebrow"><span class="icon" data-icon="book"></span><span data-i18n="researchEyebrow">Research</span></p>
+          <h1 data-i18n="researchTitleReal">Research & Publications</h1>
+          <p data-i18n="researchLeadReal">
+            Research-related work focused on machine learning, artificial intelligence,
+            GIS, remote sensing, digital transformation, business analytics, and project management.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container research-static-layout">
+          <aside class="orcid-panel glass-card">
+            <span class="app-icon"><span class="icon" data-icon="book"></span></span>
+            <p class="eyebrow" data-i18n="orcidEyebrow">Research Identity</p>
+            <h2 data-i18n="scopusTitle">Scopus ID</h2>
+            <p data-i18n="scopusText">Researcher identification number connected to my academic publication profile.</p>
+
+            <a class="app-link large-app-link" href="#" aria-disabled="true">
+              <span class="app-icon"><span class="icon" data-icon="book"></span></span>
+              <span>59563623800</span>
+            </a>
+          </aside>
+
+          <div class="research-list glass-card">
+            <div class="research-list__head">
+              <p class="eyebrow"><span class="icon" data-icon="book"></span><span data-i18n="researchSelectedWork">Selected Work</span></p>
+              <h2 data-i18n="researchEntriesTitle">Research entries</h2>
+            </div>
+
+            <article class="research-entry">
+              <span class="research-number">01</span>
+              <div>
+                <h3 data-i18n="researchOneTitle">Machine Learning in Logistics and Supply Chain Management</h3>
+                <p data-i18n="researchOneText">Research on machine learning in logistics and supply chain management at the DTESI Conference.</p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldMlSupply">Machine Learning / Supply Chain</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2024</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="research-entry">
+              <span class="research-number">02</span>
+              <div>
+                <h3 data-i18n="researchTwoTitle">GIS and Remote Sensing for Water Resource Management</h3>
+                <p data-i18n="researchTwoText">
+                  Research leveraging Geographic Information Systems and Remote Sensing
+                  for enhanced water resource management in Kazakhstan.
+                </p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldGisRemote">GIS / Remote Sensing</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2024–2025</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="research-entry">
+              <span class="research-number">03</span>
+              <div>
+                <h3 data-i18n="researchThreeTitle">AI Applications and Digital Transformation</h3>
+                <p data-i18n="researchThreeText">
+                  Research on artificial intelligence applications as a driving force
+                  behind digital transformation at the YDF Conference.
+                </p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldAiDigital">AI / Digital Transformation</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2025</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="research-entry">
+              <span class="research-number">04</span>
+              <div>
+                <h3 data-i18n="researchFourTitle">Big Data Analytics and Business Sustainability</h3>
+                <p data-i18n="researchFourText">
+                  Research on the role of big data analytics in reinforcing the business
+                  sustainability of enterprises.
+                </p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldBigDataBusiness">Big Data / Business Analytics</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2025</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="research-entry">
+              <span class="research-number">05</span>
+              <div>
+                <h3 data-i18n="researchFiveTitle">Critical Success Factors in Agile Project Management</h3>
+                <p data-i18n="researchFiveText">
+                  Holistic analysis of the critical success factors in agile project management.
+                </p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldAgilePm">Project Management / Agile</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2025</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="research-entry">
+              <span class="research-number">06</span>
+              <div>
+                <h3 data-i18n="researchSixTitle">Machine Learning Models for Unstructured Decisions and Data</h3>
+                <p data-i18n="researchSixText">
+                  Research on leveraging machine learning models to support the manipulation
+                  of unstructured decisions and unstructured data in digital business firms
+                  at the DTESI Conference.
+                </p>
+                <dl>
+                  <div><dt data-i18n="field">Field</dt><dd data-i18n="fieldMlBusiness">Machine Learning / Digital Business</dd></div>
+                  <div><dt data-i18n="researchYear">Year</dt><dd>2025</dd></div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

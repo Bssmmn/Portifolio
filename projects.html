@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects by Gehad Hamada." />
+    <title>Projects | Gehad Hamada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="projects">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html">
+          <span class="brand__logo">GH</span>
+          <span class="brand__name">Gehad Hamada</span>
+        </a>
+
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home"><span class="icon" data-icon="home"></span><span data-i18n="navHome">Home</span></a>
+          <a class="nav-link" href="about.html" data-nav="about"><span class="icon" data-icon="user"></span><span data-i18n="navAbout">About</span></a>
+          <a class="nav-link" href="projects.html" data-nav="projects"><span class="icon" data-icon="code"></span><span data-i18n="navProjects">Projects</span></a>
+          <a class="nav-link" href="achievements.html" data-nav="achievements"><span class="icon" data-icon="trophy"></span><span data-i18n="navAchievements">Achievements</span></a>
+          <a class="nav-link" href="research.html" data-nav="research"><span class="icon" data-icon="book"></span><span data-i18n="navResearch">Research</span></a>
+          <a class="nav-link" href="cv.html" data-nav="cv"><span class="icon" data-icon="file"></span><span data-i18n="navCv">CV</span></a>
+          <a class="nav-link" href="contact.html" data-nav="contact"><span class="icon" data-icon="mail"></span><span data-i18n="navContact">Contact</span></a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" data-icon="moon"></span>
+            </button>
+
+            <div class="language-switcher">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero reveal-on-load">
+        <div class="container narrow">
+          <p class="eyebrow">
+            <span class="icon" data-icon="code"></span>
+            <span data-i18n="projectsEyebrow">Projects</span>
+          </p>
+
+          <h1 data-i18n="projectsTitle">
+            Real projects I built or contributed to during my software engineering studies.
+          </h1>
+
+          <p data-i18n="projectsLead">
+            A selection of my practical work in machine learning, web development, data visualization, APIs, and deployment.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <div class="filter-bar" aria-label="Project filters">
+            <button class="filter-btn pressable is-active" type="button" data-filter="all">
+              <span class="icon" data-icon="filter"></span>
+              <span data-i18n="filterAll">All</span>
+            </button>
+
+            <button class="filter-btn pressable" type="button" data-filter="ml">
+              <span class="icon" data-icon="chart"></span>
+              <span data-i18n="filterMlAi">ML / AI</span>
+            </button>
+
+            <button class="filter-btn pressable" type="button" data-filter="web">
+              <span class="icon" data-icon="globe"></span>
+              <span data-i18n="filterWeb">Web</span>
+            </button>
+
+            <button class="filter-btn pressable" type="button" data-filter="data">
+              <span class="icon" data-icon="database"></span>
+              <span data-i18n="filterData">Data</span>
+            </button>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card" data-category="ml data" data-project-card>
+              <div class="project-icon">
+                <span class="icon" data-icon="chart"></span>
+              </div>
+
+              <h2 data-i18n="projectSignTitle">Sign Language Recognition System</h2>
+
+              <p data-i18n="projectSignText">
+                A real-time gesture recognition project that processes hand landmarks using MediaPipe,
+                maps features for machine learning input, and predicts signs through a Random Forest model
+                with an OpenCV-based pipeline.
+              </p>
+
+              <div class="tag-list">
+                <span>Python</span>
+                <span>MediaPipe</span>
+                <span>OpenCV</span>
+                <span>Random Forest</span>
+              </div>
+
+              <div class="card-actions">
+                <a class="small-btn pressable" href="https://github.com/Bssmmn/sign" target="_blank" rel="noopener">
+                  <span class="icon" data-icon="github"></span>
+                  GitHub
+                </a>
+
+                <a class="small-btn filled pressable" href="https://github.com/Bssmmn/sign" target="_blank" rel="noopener">
+                  <span data-i18n="btnDetails">Details</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="web data ml" data-project-card>
+              <div class="project-icon">
+                <span class="icon" data-icon="globe"></span>
+              </div>
+
+              <h2 data-i18n="projectDroneTitle">Drone-Based Vegetation Health Mapping System</h2>
+
+              <p data-i18n="projectDroneText">
+                A team project for visualizing drone flight data and vegetation health layers.
+                I worked on interactive map visualizations, geospatial heatmaps, flight trajectory exploration,
+                and GPS metadata integration.
+              </p>
+
+              <div class="tag-list">
+                <span>Python</span>
+                <span>Folium</span>
+                <span>Leaflet</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+              </div>
+
+              <div class="card-actions">
+                <a class="small-btn pressable" href="https://github.com/MHC-CodeSmith/DJI_HOF" target="_blank" rel="noopener">
+                  <span class="icon" data-icon="github"></span>
+                  GitHub
+                </a>
+
+                <a class="small-btn filled pressable" href="https://github.com/MHC-CodeSmith/DJI_HOF" target="_blank" rel="noopener">
+                  <span data-i18n="btnDetails">Details</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="web ml data" data-project-card>
+              <div class="project-icon">
+                <span class="icon" data-icon="database"></span>
+              </div>
+
+              <h2 data-i18n="projectFinanceTitle">Financial News Analyzer</h2>
+
+              <p data-i18n="projectFinanceText">
+                An AI-powered financial sentiment analysis application using FinBERT.
+                The project includes a FastAPI backend, vanilla JavaScript frontend, real-time predictions,
+                model comparison, latency tracking, Docker containerization, and deployment on Hugging Face Spaces.
+              </p>
+
+              <div class="tag-list">
+                <span>FastAPI</span>
+                <span>FinBERT</span>
+                <span>JavaScript</span>
+                <span>Docker</span>
+                <span>Hugging Face</span>
+              </div>
+
+              <div class="card-actions">
+                <a class="small-btn pressable" href="https://github.com/Bssmmn/financial-news-analyzer" target="_blank" rel="noopener">
+                  <span class="icon" data-icon="github"></span>
+                  GitHub
+                </a>
+
+                <a class="small-btn filled pressable" href="https://github.com/Bssmmn/financial-news-analyzer" target="_blank" rel="noopener">
+                  <span data-i18n="btnDetails">Details</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

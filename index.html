@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gehad Hamada - Computer Science student portfolio focused on software engineering, AI, data, and research projects."
+    />
+    <title>Gehad Hamada | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-theme="dark" data-page="home">
+    <div class="preloader" id="preloader">
+      <span class="icon preloader__icon" data-icon="sparkles" aria-hidden="true"></span>
+      <p data-i18n="loading">Loading portfolio...</p>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Gehad Hamada home">
+          <span class="brand__logo">GH</span>
+          <span class="brand__name">Gehad Hamada</span>
+        </a>
+
+        <button class="nav-toggle pressable" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <a class="nav-link" href="index.html" data-nav="home">
+            <span class="icon" data-icon="home" aria-hidden="true"></span>
+            <span data-i18n="navHome">Home</span>
+          </a>
+
+          <a class="nav-link" href="about.html" data-nav="about">
+            <span class="icon" data-icon="user" aria-hidden="true"></span>
+            <span data-i18n="navAbout">About</span>
+          </a>
+
+          <a class="nav-link" href="projects.html" data-nav="projects">
+            <span class="icon" data-icon="code" aria-hidden="true"></span>
+            <span data-i18n="navProjects">Projects</span>
+          </a>
+
+          <a class="nav-link" href="achievements.html" data-nav="achievements">
+            <span class="icon" data-icon="trophy" aria-hidden="true"></span>
+            <span data-i18n="navAchievements">Achievements</span>
+          </a>
+
+          <a class="nav-link" href="research.html" data-nav="research">
+            <span class="icon" data-icon="book" aria-hidden="true"></span>
+            <span data-i18n="navResearch">Research</span>
+          </a>
+
+          <a class="nav-link" href="cv.html" data-nav="cv">
+            <span class="icon" data-icon="file" aria-hidden="true"></span>
+            <span data-i18n="navCv">CV</span>
+          </a>
+
+          <a class="nav-link" href="contact.html" data-nav="contact">
+            <span class="icon" data-icon="mail" aria-hidden="true"></span>
+            <span data-i18n="navContact">Contact</span>
+          </a>
+
+          <div class="nav-tools">
+            <button class="tool-btn pressable" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" data-icon="moon" aria-hidden="true"></span>
+            </button>
+
+            <div class="language-switcher" aria-label="Language selector">
+              <button class="lang-btn pressable is-active" type="button" data-lang="en">EN</button>
+              <button class="lang-btn pressable" type="button" data-lang="de">DE</button>
+              <button class="lang-btn pressable" type="button" data-lang="ru">RU</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-shell">
+        <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal-on-load">
+              <span class="icon" data-icon="sparkles" aria-hidden="true"></span>
+              <span data-i18n="homeEyebrow">Computer Science Student</span>
+            </p>
+
+            <h1 class="hero-title reveal-on-load" data-i18n="homeTitle">Hi, I’m Gehad Hamada.</h1>
+
+            <p class="hero-lead reveal-on-load" data-i18n="homeLead">
+              I am a Computer Science student focused on software engineering, AI, data-driven projects,
+              and research-based solutions.
+            </p>
+
+            <div class="hero-actions reveal-on-load">
+              <a class="btn btn-primary pressable" href="projects.html">
+                <span class="icon" data-icon="code" aria-hidden="true"></span>
+                <span data-i18n="btnExploreProjects">Explore Projects</span>
+              </a>
+
+              <a class="btn btn-soft pressable" href="assets/cv/cv-EN.pdf" download>
+                <span class="icon" data-icon="download" aria-hidden="true"></span>
+                <span data-i18n="downloadEnglishCv">English CV</span>
+              </a>
+
+              <a class="btn btn-soft pressable" href="assets/cv/GEHAD_HAMADA_FlowCV_Resume_2026-05-06-2.pdf" download>
+                <span class="icon" data-icon="download" aria-hidden="true"></span>
+                <span data-i18n="downloadGermanCv">German CV</span>
+              </a>
+
+              <a class="btn btn-ghost pressable" href="contact.html">
+                <span class="icon" data-icon="send" aria-hidden="true"></span>
+                <span data-i18n="btnContact">Contact Me</span>
+              </a>
+            </div>
+
+            <div class="hero-socials reveal-on-load" aria-label="Social links">
+              <a class="app-link social-pill" href="https://github.com/Bssmmn" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <span class="app-icon"><span class="icon" data-icon="github" aria-hidden="true"></span></span>
+                <span>GitHub</span>
+              </a>
+
+              <a class="app-link social-pill" href="https://www.linkedin.com/in/gehad-hamada-cs/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <span class="app-icon"><span class="icon" data-icon="linkedin" aria-hidden="true"></span></span>
+                <span>LinkedIn</span>
+              </a>
+
+              <a class="app-link social-pill" href="mailto:ghamada@hof-university.de" aria-label="Email">
+                <span class="app-icon"><span class="icon" data-icon="mail" aria-hidden="true"></span></span>
+                <span>Email</span>
+              </a>
+            </div>
+
+            <div class="hero-stats reveal-on-load" aria-label="Portfolio highlights">
+              <article>
+                <span class="counter" data-count="6">0</span>
+                <p data-i18n="statPages">Portfolio Pages</p>
+              </article>
+
+              <article>
+                <span class="counter" data-count="3">0</span>
+                <p data-i18n="statMainProjects">Main Projects</p>
+              </article>
+
+              <article>
+                <span class="counter" data-count="4">0</span>
+                <p data-i18n="statLanguages">Languages</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-showcase reveal-on-load" aria-label="Interactive developer showcase">
+            <article class="robot-console" id="robotConsole" aria-label="Ask Gehad portfolio assistant">
+              <div class="console-topline">
+                <span class="pulse-dot" aria-hidden="true"></span>
+                <span data-i18n="robotStatus">Portfolio assistant online</span>
+              </div>
+
+              <div class="robot-stage">
+                <button class="robot-button pressable" id="robotButton" type="button" aria-label="Focus chat input">
+                  <span class="robot" aria-hidden="true">
+                    <span class="robot-antenna"></span>
+                    <span class="robot-head">
+                      <span class="robot-eye"></span>
+                      <span class="robot-eye"></span>
+                    </span>
+                    <span class="robot-body">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span class="robot-arm robot-arm-left"></span>
+                    <span class="robot-arm robot-arm-right"></span>
+                  </span>
+                </button>
+
+                <div class="assistant-panel">
+                  <div class="assistant-heading">
+                    <h2 data-i18n="assistantTitle">Ask Gehad</h2>
+                    <p data-i18n="assistantIntro">Ask about projects, skills, CV, research, achievements, languages, or contact.</p>
+                  </div>
+
+                  <div class="chat-messages" id="chatMessages" aria-live="polite">
+                    <div class="chat-message bot-message" data-i18n="assistantWelcome">
+                      Hi, I’m Gehad’s portfolio assistant. I only answer from her portfolio information.
+                    </div>
+                  </div>
+
+                  <div class="quick-prompts" aria-label="Suggested questions">
+                    <button class="quick-prompt pressable" type="button" data-question-key="quickQuestionProjects" data-i18n="quickProjects">Projects</button>
+                    <button class="quick-prompt pressable" type="button" data-question-key="quickQuestionSkills" data-i18n="quickSkills">Skills</button>
+                    <button class="quick-prompt pressable" type="button" data-question-key="quickQuestionResearch" data-i18n="quickResearch">Research</button>
+                    <button class="quick-prompt pressable" type="button" data-question-key="quickQuestionContact" data-i18n="quickContact">Contact</button>
+                  </div>
+
+                  <form class="chat-form" id="chatForm">
+                    <label class="sr-only" for="chatInput" data-i18n="chatInputLabel">Ask a portfolio question</label>
+                    <input
+                      id="chatInput"
+                      name="message"
+                      type="text"
+                      maxlength="500"
+                      autocomplete="off"
+                      placeholder="Ask about Gehad’s projects or skills..."
+                      data-i18n-placeholder="chatPlaceholder"
+                    />
+                    <button class="chat-submit pressable" type="submit" aria-label="Send chat message">
+                      <span class="icon" data-icon="send" aria-hidden="true"></span>
+                    </button>
+                  </form>
+
+                  <p class="assistant-note" data-i18n="assistantNote">This assistant is limited to Gehad’s portfolio knowledge.</p>
+                </div>
+              </div>
+
+              <div class="console-code">
+                <span>mode</span>
+                <strong data-i18n="robotCode">portfolio assistant</strong>
+              </div>
+            </article>
+
+            <div class="showcase-stack">
+              <article class="signal-card">
+                <span class="icon" data-icon="target" aria-hidden="true"></span>
+                <div>
+                  <strong data-i18n="signalOneTitle">Application-focused</strong>
+                  <p data-i18n="signalOneText">Clear pages for projects, CV, research, achievements, and contact.</p>
+                </div>
+              </article>
+
+              <article class="signal-card">
+                <span class="icon" data-icon="layers" aria-hidden="true"></span>
+                <div>
+                  <strong data-i18n="signalTwoTitle">Practical builder</strong>
+                  <p data-i18n="signalTwoText">Python, C++, SQL, FastAPI, Django, Docker, Git, and data-driven work.</p>
+                </div>
+              </article>
+
+              <article class="profile-mini-card">
+                <img src="assets/images/gehad-profile.jpg" alt="Gehad Hamada" />
+                <div>
+                  <strong>Gehad Hamada</strong>
+                  <p data-i18n="profileMiniText">Computer Science Student</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container feature-strip">
+          <a class="feature-card" href="about.html">
+            <span class="icon" data-icon="user" aria-hidden="true"></span>
+            <h2 data-i18n="homeAboutCard">About Gehad</h2>
+            <p data-i18n="homeAboutText">My background, interests, and software engineering direction.</p>
+          </a>
+
+          <a class="feature-card" href="projects.html">
+            <span class="icon" data-icon="layers" aria-hidden="true"></span>
+            <h2 data-i18n="homeProjectsCard">Project Portfolio</h2>
+            <p data-i18n="homeProjectsText">Sign language recognition, vegetation health mapping, and financial news analysis.</p>
+          </a>
+
+          <a class="feature-card" href="research.html">
+            <span class="icon" data-icon="book" aria-hidden="true"></span>
+            <h2 data-i18n="homeResearchCard">Research Profile</h2>
+            <p data-i18n="homeResearchText">Research work in AI, data analysis, GIS, remote sensing, and digital transformation.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container split-panel">
+          <div>
+            <p class="eyebrow">
+              <span class="icon" data-icon="target" aria-hidden="true"></span>
+              <span data-i18n="homeDirectionEyebrow">Career Direction</span>
+            </p>
+
+            <h2 data-i18n="homeDirectionTitle">Focused on software engineering roles in Germany and Europe</h2>
+
+            <p data-i18n="homeDirectionText">
+              This portfolio presents my real CV, projects, achievements, and research background in a clean structure
+              for internships, working student roles, and junior software engineering opportunities.
+            </p>
+          </div>
+
+          <div class="mini-terminal" aria-label="Animated code preview">
+            <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <pre><code>const gehad = {
+  role: "Computer Science Student",
+  skills: ["Python", "C++", "SQL", "FastAPI"],
+  tools: ["Git", "Docker", "Linux", "Hugging Face"],
+  focus: "software engineering and AI"
+};</code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p data-i18n="footerText">© 2026 Gehad Hamada. Built with HTML, CSS, and JavaScript.</p>
+
+        <div class="footer-links">
+          <a class="app-link" href="https://github.com/Bssmmn" target="_blank" rel="noreferrer">
+            <span class="app-icon"><span class="icon" data-icon="github" aria-hidden="true"></span></span>
+            GitHub
+          </a>
+
+          <a class="app-link" href="https://www.linkedin.com/in/gehad-hamada-cs/" target="_blank" rel="noreferrer">
+            <span class="app-icon"><span class="icon" data-icon="linkedin" aria-hidden="true"></span></span>
+            LinkedIn
+          </a>
+
+          <a class="app-link" href="mailto:ghamada@hof-university.de">
+            <span class="app-icon"><span class="icon" data-icon="mail" aria-hidden="true"></span></span>
+            Email
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top pressable" id="backToTop" type="button" aria-label="Back to top">
+      <span class="icon" data-icon="arrowUp" aria-hidden="true"></span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
