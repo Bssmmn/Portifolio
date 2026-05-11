@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "api/**/*.py": {
-      "excludeFiles": "{assets/**,.vscode/**}"
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "/api/chat.py"
     }
-  }
+  ]
 }
